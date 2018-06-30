@@ -30,8 +30,7 @@ $small-size: 900px;
   margin-bottom: 4rem;
   padding-bottom: 4rem;
   padding-top: 3rem;
-  background-color: black;
-  border-bottom: 1px solid black;
+  border-bottom: 0px solid black;
 
   @media screen and (max-width: $screen-sm) {
     margin-bottom: 1rem;

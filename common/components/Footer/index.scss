@@ -1,19 +1,19 @@
 @import 'common/sass/variables';
 @import 'common/sass/mixins';
 
-$footer-link-color: #fff;
+$footer-link-color: #000;
 
 .Footer {
-  background-color: black;
+  background-color: white;
   padding: $space-sm $space-sm 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 3px solid $brand-primary;
+  border-top: 0px solid $brand-primary;
 
   &-section {
-    color: #fff;
+    color: #000;
     padding: $space;
   }
 
@@ -45,7 +45,7 @@ $footer-link-color: #fff;
       margin-left: 0px;
       padding-bottom: $space * 2;
       margin-bottom: $space * 2;
-      border-bottom: 1px solid rgba(#fff, 0.2);
+      border-bottom: 1px solid rgba(#000, 0.2);
     }
     &-support {
       text-align: center;
@@ -159,7 +159,7 @@ $footer-link-color: #fff;
 
 .SocialMediaLink {
   transition: opacity 0.3s;
-  color: #fff;
+  color: #000;
   margin: 0.55rem;
 
   > i {
@@ -169,6 +169,6 @@ $footer-link-color: #fff;
   &:hover,
   &:focus {
     opacity: 0.8;
-    color: #fff;
+    color: #000;
   }
 }

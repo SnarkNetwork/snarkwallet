@@ -13,7 +13,7 @@ import {
   removeCustomNode,
   addCustomNetwork
 } from 'actions/config';
-import logo from 'assets/images/cryptocurve-logo-white2.png';
+import logo from 'assets/images/snark-logo.png';
 import { OldDropDown, ColorDropdown } from 'components/ui';
 import React, { Component } from 'react';
 import classnames from 'classnames';
@@ -158,19 +158,12 @@ class Header extends Component<Props, State> {
                 src={logo}
                 height="64px"
                 width="245px"
-                alt="CryptoCurve logo"
+                alt="snark"
               />
             </Link>
             <div className="Header-branding-right" />
           </section>
         </section>
-        <Navigation color={!network.isCustom && network.color} />
-
-        <CustomNodeModal
-          isOpen={isAddingCustomNode}
-          addCustomNode={this.addCustomNode}
-          handleClose={this.closeCustomNodeModal}
-        />
       </div>
     );
   }
